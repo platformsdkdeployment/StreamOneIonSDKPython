@@ -612,6 +612,19 @@ for order in orders:
 
 StreamOne Ion API offers two encoding formats for the response: JSON and XML. By default, the responses are encoded in JSON but you can change that using the Accept request header:
 
+
+## Licence and use
+ 
+This SDK is licensed under the [Apache License 2.0](LICENSE).
+ 
+The licence governs use, copying, modification, and redistribution of the SDK source code.
+Use of the StreamOne Ion APIs and services is governed separately by the applicable
+StreamOne Ion API terms, partner agreement, security requirements, and service policies.
+Possession or use of this SDK does not itself grant access to StreamOne Ion services,
+API credentials, trademarks, support, or any other TD SYNNEX services.
+ 
+Third-party components may be subject to their own licence terms.
+
 ```http
 Accept: text/xml
 Accept: application/json (default)
